@@ -124,19 +124,25 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Cards
                         {
                             new AdaptiveChoice
                             {
-                                Title = Strings.HelpfulRatingText,
-                                Value = nameof(FeedbackRating.Helpful),
+                                Title = Strings.IncidentRatingText,
+                                Value = nameof(FeedbackRating.Incident),
                             },
-                            new AdaptiveChoice
-                            {
-                                Title = Strings.NeedsImprovementRatingText,
-                                Value = nameof(FeedbackRating.NeedsImprovement),
-                            },
-                            new AdaptiveChoice
-                            {
-                                Title = Strings.NotHelpfulRatingText,
-                                Value = nameof(FeedbackRating.NotHelpful),
-                            },
+
+                            // new AdaptiveChoice
+                            // {
+                            //     Title = Strings.HelpfulRatingText,
+                            //     Value = nameof(FeedbackRating.Helpful),
+                            // },
+                            // new AdaptiveChoice
+                            // {
+                            //     Title = Strings.NeedsImprovementRatingText,
+                            //     Value = nameof(FeedbackRating.NeedsImprovement),
+                            // },
+                            // new AdaptiveChoice
+                            // {
+                            //     Title = Strings.NotHelpfulRatingText,
+                            //     Value = nameof(FeedbackRating.NotHelpful),
+                            // },
                         },
                     },
                     new AdaptiveTextBlock

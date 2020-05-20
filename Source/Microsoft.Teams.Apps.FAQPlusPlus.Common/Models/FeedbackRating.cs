@@ -23,5 +23,10 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Common.Models
         /// Helpful.
         /// </summary>
         Helpful,
+
+        /// <summary>
+        /// Incident.
+        /// </summary>
+        Incident,
     }
 }
